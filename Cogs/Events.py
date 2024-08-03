@@ -12,6 +12,7 @@ import datetime
 import random
 import os
 from typing import Union
+from time import time
 
 ## Модули бота.
 from main import CREATOR_ID, STREAMER_NAME, DONAT, \
@@ -29,6 +30,7 @@ from bot_modules.BotStats.ErrorsWriter import error_write
 from bot_modules.ai_response.ai_response import get_response
 from bot_modules.ai_response.json_writter import write_into_json, JSON_PATH
 from bot_modules.command_logger import event_logger, cog_logger, command_logger, error_logger
+from bot_modules.work_game.user_work_writer import get_user_work_info, WORK_PATH
 
 ## Прочие константы.
 DIR_CREDIT_PATH = directory_path
@@ -62,8 +64,121 @@ class Events(commands.Cog):
         self.check_delete_private_text_channel.start()
         self.check_delete_private_voice_channel.start()
         self.set_investions.start()
+        self.check_user_work.start()
     
     
+    @tasks.loop(minutes=5)
+    async def check_user_work(
+        self
+    ) -> None:
+        """
+        Каждые 5 минут проверяем файл работы пользователя для его удаления и начисления деревяшек.
+        """
+        
+        event_logger(
+            bot_name=BOT_NAME,
+            event_name="check_user_work"
+        )
+        
+        ## Все файлы директории WORK_PATH
+        all_work_files: list = os.listdir(WORK_PATH)
+        ## Перечисляем все файлы в директории.
+        for work_file in all_work_files:
+            ## Получаем информацию о пользователе.
+            user_work_info: tuple = get_user_work_info(
+                user_name=work_file.replace(".json", "")
+            )
+            ## Структурируем информацию.
+            work_start_time: float = user_work_info[0]
+            add_wood: bool = user_work_info[1]
+            user_id: int = user_work_info[2]
+            
+            ## Получаем объект пользователя.
+            user_to_check: disnake.User = self.bot.get_user(user_id)
+            
+            ## Проверка достаточно ли прошло времени.
+            if time() - work_start_time <= 14_400:
+                return None
+            
+            ## Получаем баланс пользователя.
+            user_balance: float = get_user_balance(
+                user_name=user_to_check.name
+            )
+            
+            ## Если пользователю необходимо добавлять деревяшки.
+            if add_wood is True:
+                ## Создаём новый баланс пользователя.
+                new_user_balance: float = user_balance + 100
+                
+                ## Попытка отправить сообщение пользователю.
+                try:
+                    await user_to_check.send(
+                        embed=disnake.Embed(
+                            title="Ваша работа завершилась!",
+                            description=f"""
+Уважаемый {user_to_check.mention}, вы получаете **100** деревяшек за свою работу.
+Ваш баланс на данный момент: {new_user_balance}
+                            """,
+                            color=disnake.Color.green(),
+                            timestamp=datetime.datetime.now()
+                        )
+                        .set_author(
+                            name=BOT_NAME,
+                            icon_url=DOOR_IMG_URL
+                        )
+                        .set_footer(
+                            text=FOOTER_TEXT,
+                            icon_url=DOOR_IMG_URL
+                        )
+                    )
+                ## Если пользователь не принимает сообщения.
+                except Exception as error:
+                    error_logger(
+                        error=error,
+                        command_name="check_user_work",
+                        line=92
+                    )
+                ## Запись баланса пользователя.
+                finally:
+                    write_user_balance(
+                        user_name=user_to_check.name,
+                        count=new_user_balance
+                    )
+                    os.remove(f"{WORK_PATH}/{user_to_check.name}.json")
+            else:
+                ## Попытка отправить сообщение пользователю.
+                try:
+                    await user_to_check.send(
+                        embed=disnake.Embed(
+                            title="Ваша работа завершилась!",
+                            description=f"""
+Уважаемый {user_to_check.mention}, к сожалению, ваша работа закончилась неудачей!
+Ваш баланс на данный момент: {user_balance}
+                            """,
+                            color=disnake.Color.red(),
+                            timestamp=datetime.datetime.now()
+                        )
+                        .set_author(
+                            name=BOT_NAME,
+                            icon_url=DOOR_IMG_URL
+                        )
+                        .set_footer(
+                            text=FOOTER_TEXT,
+                            icon_url=DOOR_IMG_URL
+                        )
+                    )
+                ## Если пользователь не принимает сообщения.
+                except Exception as error:
+                    error_logger(
+                        error=error,
+                        command_name="check_user_work",
+                        line=142
+                    )
+                
+                finally:
+                    os.remove(f"{WORK_PATH}/{user_to_check.name}.json")
+
+
     @tasks.loop(minutes=1)
     async def check_users_count(self) -> None:
         """

@@ -10,6 +10,7 @@ import os
 import random
 import datetime
 from requests import RequestException
+from time import time
 
 ## Модули бота.
 from main import STREAMER_NAME, TWITCH, DONAT, TG,\
@@ -32,6 +33,7 @@ from bot_modules.words_game.last_word_writer import write_new_last_word, check_l
 from bot_modules.words_game.words_game_count import write_new_words_count, check_words_count
 from bot_modules.words_game.hash_writer import check_old_hash, new_word_hash_write
 from bot_modules.BotStats.ErrorsWriter import error_write
+from bot_modules.work_game.user_work_writer import write_user_work, get_user_work_info
 
 class SlashCommands(commands.Cog):
     """
@@ -42,6 +44,96 @@ class SlashCommands(commands.Cog):
         bot=commands.Bot
     ) -> None:
         self.bot = bot
+
+
+    @commands.slash_command(
+        name="start_work",
+        description="Начни получать деревяшки пока твой аватар \"работает\"!",
+    )
+    async def start_work(
+        self,
+        inter: disnake.AppCommandInteraction,
+    ) -> None:
+        """Команда записи .json файла о начале работы пользователя. 
+        Если пользователю повезёт (90%), то он получит 100 деревяшек через 4 часа. Иначе ничего не получает.
+
+        Args:
+            inter (disnake.AppCommandInteraction): Disnake Interaction.
+        """
+        ## ожидание исполнения команды.
+        await inter.response.defer()
+        
+        ## логирование команды.
+        command_logger(
+            global_name=inter.author.global_name,
+            name=inter.author.name,
+            command_name="start_work"
+        )
+        
+        user_work_info: tuple = get_user_work_info(
+            user_name=inter.author.name
+        )
+        if user_work_info is not None:
+            await inter.send(
+            embed=disnake.Embed(
+                title="Не удалось начать работу",
+                description=f"""
+Уважаемый {inter.author.mention}, вы уже работаете `прямо сейчас`. :factory_worker:
+"""
+            )
+            .set_author(
+                name=BOT_NAME,
+                icon_url=DOOR_IMG_URL
+            )
+            .set_footer(
+                text=FOOTER_TEXT,
+                icon_url=DOOR_IMG_URL
+            )
+            .set_thumbnail(
+                url=ANON_DOOR
+            )
+        )
+        
+        ## Получаем случайное число между 0 и 1.
+        random_num: float = round(random.random(), 2)
+        
+        ## Проводим подсчёт того, получит ли пользователь деревяшек.
+        if random_num <= 0.90:
+            add_wood: bool = True
+        else:
+            add_wood: bool = False
+        
+        ## Получаем количество секунд с начала эпохи.
+        start_time: float = time()
+        
+        ## Записываем информацию о работе пользователя.
+        write_user_work(
+            user_name=inter.author.name,
+            work_start_time=start_time,
+            add_wood=add_wood,
+            id=inter.author.id
+        )
+        
+        await inter.send(
+            embed=disnake.Embed(
+                title="Работа начата",
+                description=f"""
+Уважаемый {inter.author.mention}, вы начали свою работу на нашем сервере. :factory_worker:
+Возвращайтесь через 4 часа и `почти` наверняка получите свои **100** деревяшек! :wood:
+"""
+            )
+            .set_author(
+                name=BOT_NAME,
+                icon_url=DOOR_IMG_URL
+            )
+            .set_footer(
+                text=FOOTER_TEXT,
+                icon_url=DOOR_IMG_URL
+            )
+            .set_thumbnail(
+                url=ANON_DOOR
+            )
+        )
 
 
     @commands.slash_command(

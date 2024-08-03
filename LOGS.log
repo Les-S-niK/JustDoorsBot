@@ -9154,3 +9154,3429 @@
         с агрументами <<None>>.
         <<<
         
+2024-08-03 22:00:09.825 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:00:09.825 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:00:10.323 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:00:10.323 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:00:10.350 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:00:10.350 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:00:13.927 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:00:13.927 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:00:13.929 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:13.929 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.416 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.416 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.419 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.419 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.691 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.691 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.693 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.693 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.694 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:16.694 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:41.693 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:41.693 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:42.771 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:00:42.771 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:21.269 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:01:21.269 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:01:21.722 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:01:21.722 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:01:21.753 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:01:21.753 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:01:25.112 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:01:25.112 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:01:25.113 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:25.113 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.717 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.717 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.719 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.719 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.929 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.929 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.931 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.931 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.932 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:27.932 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:31.001 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:01:31.001 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:02:25.131 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:02:25.131 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:25.140 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:25.140 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:37.246 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:03:37.246 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:03:37.728 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:03:37.728 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:03:37.744 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:03:37.744 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:03:40.973 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:03:40.973 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:03:40.974 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:40.974 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.326 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.326 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.327 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.327 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.528 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.528 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.530 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.530 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.531 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:03:43.531 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:02.554 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:02.554 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:32.313 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:32.313 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:41.317 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:04:41.317 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:04:41.800 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:04:41.800 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:04:41.843 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:04:41.843 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:04:45.151 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:04:45.151 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:04:45.152 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:45.152 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.597 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.597 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.598 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.598 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.804 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.804 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.805 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.805 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.807 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:04:47.807 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:12.237 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:12.237 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:12.634 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:12.634 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:12.647 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:12.647 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:15.992 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:05:15.992 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:05:15.994 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:15.994 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.228 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.228 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.229 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.229 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.476 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.476 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.477 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.477 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.479 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:18.479 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:21.792 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:21.792 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:05:41.378 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </words_game>
+        с агрументами <<
+            word: бот пидорас
+            >>.
+        <<<
+        
+2024-08-03 22:05:41.378 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </words_game>
+        с агрументами <<
+            word: бот пидорас
+            >>.
+        <<<
+        
+2024-08-03 22:05:59.460 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:59.460 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:59.890 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:59.890 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:59.908 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:05:59.908 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:03.322 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:06:03.322 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:06:03.323 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:03.323 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:05.799 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:05.799 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:05.800 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:05.800 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:06.013 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:06.013 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:06.014 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:06.014 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:06.016 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:06.016 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:34.113 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:34.113 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:34.528 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:34.528 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:34.547 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:34.547 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:06:37.833 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:06:37.833 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:06:37.834 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:37.834 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.130 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.130 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.132 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.132 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.139 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.139 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.338 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.338 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.339 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.339 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.341 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.341 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:40.666 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </words_game>
+        с агрументами <<
+            word: еда
+            >>.
+        <<<
+        
+2024-08-03 22:06:40.666 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </words_game>
+        с агрументами <<
+            word: еда
+            >>.
+        <<<
+        
+2024-08-03 22:06:43.085 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:43.085 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:46.455 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </words_game>
+        с агрументами <<
+            word: вода
+            >>.
+        <<<
+        
+2024-08-03 22:06:46.455 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </words_game>
+        с агрументами <<
+            word: вода
+            >>.
+        <<<
+        
+2024-08-03 22:06:48.475 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:48.475 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:58.494 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:06:58.494 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:08.507 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:08.507 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:18.522 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:18.522 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:28.530 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:28.530 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:37.852 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:37.852 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:38.537 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:38.537 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:48.539 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:48.539 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:58.546 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:07:58.546 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:08.544 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:08.544 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:15.213 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:15.213 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:18.546 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:18.546 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:28.278 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </casino_game>
+        с агрументами <<
+            bet: 500.0
+            >>.
+        <<<
+        
+2024-08-03 22:08:28.278 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </casino_game>
+        с агрументами <<
+            bet: 500.0
+            >>.
+        <<<
+        
+2024-08-03 22:08:28.555 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:28.555 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:37.862 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:37.862 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:38.566 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:38.566 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:48.569 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:48.569 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:48.656 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:48.656 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:58.589 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:08:58.589 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:09:03.051 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:09:03.051 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:19.219 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:12:19.219 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:12:20.391 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:12:20.391 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:12:20.407 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:12:20.407 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:12:23.695 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:12:23.695 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:12:23.696 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:23.696 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.101 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.101 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.104 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.104 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.105 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.105 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.440 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.440 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.442 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.442 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.443 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:26.443 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:28.913 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:28.913 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:33.711 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:33.711 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:42.301 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:42.301 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:43.723 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:12:43.723 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:08.338 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:13:08.338 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:13:08.824 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:13:08.824 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:13:08.841 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:13:08.841 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:13:12.249 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:13:12.249 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:13:12.250 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:12.250 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.541 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.541 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.543 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.543 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.544 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.544 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.741 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.741 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.742 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.742 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.744 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:14.744 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:22.252 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:22.252 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:32.269 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:32.269 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:33.848 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:33.848 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:38.269 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:38.269 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:39.249 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:39.249 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:42.286 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:42.286 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:52.290 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:13:52.290 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:02.291 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:02.291 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:06.184 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:06.184 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:07.461 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:07.461 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:09.399 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:09.399 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:11.363 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:11.363 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:12.261 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:12.261 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:12.308 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:12.308 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:13.884 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:13.884 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:16.535 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:16.535 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:18.897 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:18.897 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:21.387 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:21.387 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:22.319 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:22.319 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:23.823 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:23.823 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:26.254 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:26.254 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:29.116 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:29.116 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:32.321 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:32.321 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:39.494 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:39.494 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:42.333 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:42.333 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:47.061 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:47.061 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:52.348 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:52.348 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:53.890 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:53.890 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:54.445 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:54.445 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:55.503 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:55.503 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:57.483 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:14:57.483 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:02.364 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:02.364 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:04.296 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:04.296 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:06.338 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:06.338 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:09.940 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:09.940 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь 𝓦𝓪𝓻𝓷𝓲𝓚 (war_e_nik)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:12.258 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:12.258 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:12.396 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:12.396 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:13.999 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:13.999 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:22.397 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:22.397 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:24.651 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:24.651 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:31.463 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:31.463 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:32.408 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:32.408 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:39.079 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:39.079 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:42.408 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:42.408 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:45.869 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:45.869 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:52.431 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:52.431 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:15:54.591 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </casino_game>
+        с агрументами <<
+            bet: 1500.0
+            >>.
+        <<<
+        
+2024-08-03 22:15:54.591 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </casino_game>
+        с агрументами <<
+            bet: 1500.0
+            >>.
+        <<<
+        
+2024-08-03 22:16:02.445 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:02.445 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:05.710 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:05.710 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:12.057 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:12.057 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:12.285 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:12.285 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:12.443 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:12.443 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:22.446 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:22.446 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:22.823 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:22.823 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:29.436 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:29.436 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:32.454 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:32.454 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:42.462 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:42.462 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:43.944 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:43.944 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:52.462 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:52.462 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:54.512 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:16:54.512 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:02.477 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:02.477 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:06.094 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:06.094 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:12.286 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:12.286 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:12.489 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:12.489 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:15.745 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:15.745 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:22.495 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:22.495 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:26.088 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:26.088 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:32.494 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:32.494 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:32.579 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:32.579 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:42.493 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:42.493 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:51.334 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:51.334 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:52.499 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:17:52.499 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:02.524 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:02.524 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:12.243 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:12.243 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:12.244 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:12.244 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.621 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.621 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.622 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.622 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.735 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.735 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.736 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:14.736 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:20.296 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </image_request>
+        с агрументами <<
+            request: 8
+            >>.
+        <<<
+        
+2024-08-03 22:18:20.296 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </image_request>
+        с агрументами <<
+            request: 8
+            >>.
+        <<<
+        
+2024-08-03 22:18:23.296 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:23.296 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:24.736 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:24.736 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:28.007 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:28.007 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:34.761 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:34.761 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:44.774 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:44.774 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:48.825 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:48.825 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:54.781 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:54.781 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:57.708 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:18:57.708 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:04.790 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:04.790 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:14.741 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:14.741 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:14.803 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:14.803 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:24.805 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:24.805 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:28.069 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </create_text_channel>
+        с агрументами <<
+            channel_name: 6
+            >>.
+        <<<
+        
+2024-08-03 22:19:28.069 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </create_text_channel>
+        с агрументами <<
+            channel_name: 6
+            >>.
+        <<<
+        
+2024-08-03 22:19:35.649 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:19:35.649 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:19:36.136 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:19:36.136 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:19:36.163 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:19:36.163 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 22:19:39.334 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:19:39.334 | INFO     | Cogs.Events:on_ready:58 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 22:19:39.335 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:39.335 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.723 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.723 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.725 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.725 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.727 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.727 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.928 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.928 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.930 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.930 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.931 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:41.931 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:49.336 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:49.336 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:53.376 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:53.376 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:59.351 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:19:59.351 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:07.421 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </create_voice_channel>
+        с агрументами <<
+            channel_name: 9999
+            >>.
+        <<<
+        
+2024-08-03 22:20:07.421 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </create_voice_channel>
+        с агрументами <<
+            channel_name: 9999
+            >>.
+        <<<
+        
+2024-08-03 22:20:09.367 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:09.367 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:19.381 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:19.381 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:26.201 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </help>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:26.201 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </help>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:29.382 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:29.382 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:39.383 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:39.383 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:39.389 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:39.389 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:49.405 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:49.405 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:59.413 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:20:59.413 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:01.974 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:01.974 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </balance>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:07.651 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:07.651 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:09.413 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:09.413 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:12.430 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </casino_game>
+        с агрументами <<
+            bet: 1000.0
+            >>.
+        <<<
+        
+2024-08-03 22:21:12.430 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал </casino_game>
+        с агрументами <<
+            bet: 1000.0
+            >>.
+        <<<
+        
+2024-08-03 22:21:19.430 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:19.430 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:23.790 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:23.790 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:29.427 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:29.427 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:39.403 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:39.403 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:39.432 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:39.432 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_user_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:42.234 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 22:21:42.234 | DEBUG    | bot_modules.command_logger:command_logger:36 - 
+        Just Door's _BOT_ COMMAND LOGGER >>>
+        Пользователь SkilBox (skilbox)
+        Использовал <start_work>
+        с агрументами <<None>>.
+        <<<
+        
