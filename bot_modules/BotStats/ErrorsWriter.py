@@ -7,5 +7,5 @@ def error_write(error: str) -> None:
     Args:
         error (str): Произошедшая ошибка.
     """
-    with open(f"{DIRPATH}//Errors//{str(datetime.now()).replace(":", ".")}.error", "w", encoding="utf-8") as file:
+    with open(f"{DIRPATH}//Errors//{str(datetime.now()).replace(':', '.')}.error", "w", encoding="utf-8") as file:
         file.write(error)

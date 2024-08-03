@@ -322,6 +322,8 @@ class Events(commands.Cog):
         
         if message.content == "":
             return None 
+        if message_author.name == BOT_NAME:
+            return None
         
         await self.logs_channel.send(
             embed=disnake.Embed(

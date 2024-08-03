@@ -62,7 +62,7 @@ HELLO_IMG_URL: str = "https://cdn.discordapp.com/attachments/1262663005783719957
 
 ## Создание логгера для отладки ошибок.
 logger.add(
-    f"{DIRPATH}\\LOGS.log",
+    f"{DIRPATH}/LOGS.log",
     rotation="1 MB",
     compression="zip"
 )
@@ -80,7 +80,7 @@ bot: commands.Bot = commands.Bot(
 
 ## Дополнительная настройка бота.
 bot.remove_command("help")
-bot.load_extensions("Cogs\\")
+bot.load_extensions("Cogs/")
 
 ## Запуск бота.
 TOKEN: str = getenv("TOKEN")
