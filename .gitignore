@@ -1,4 +1,10 @@
+
+.env
 LOGS.log
 __pycache__
 Errors
 venv
+*.json
+*.png
+*.gif
+**/__pycache__/

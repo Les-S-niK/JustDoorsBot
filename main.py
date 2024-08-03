@@ -4,6 +4,7 @@ from loguru import logger
 from os import path, getenv
 from dotenv import load_dotenv
 
+
 ## Подгрузка ENV среды.
 load_dotenv()
 

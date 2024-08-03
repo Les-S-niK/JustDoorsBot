@@ -8980,3 +8980,177 @@
         с агрументами <<None>>.
         <<<
         
+2024-08-03 20:33:42.805 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:33:42.805 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:33:44.417 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:33:44.417 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:33:44.529 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:33:44.529 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:33:44.532 | ERROR    | main:<module>:96 - 
+        Just Door's _BOT_ error LOGGER >>>
+        При использовании <MAIN>
+        с агрументами <<NONE>>
+        произошла ошибка: <<<token must be of type str, got NoneType instead>>>
+        на строке №90.
+        <<<
+        
+2024-08-03 20:33:44.532 | ERROR    | main:<module>:96 - 
+        Just Door's _BOT_ error LOGGER >>>
+        При использовании <MAIN>
+        с агрументами <<NONE>>
+        произошла ошибка: <<<token must be of type str, got NoneType instead>>>
+        на строке №90.
+        <<<
+        
+2024-08-03 20:35:37.900 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:35:37.900 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Commands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:35:38.376 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:35:38.376 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: Events
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:35:38.390 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:35:38.390 | INFO     | bot_modules.command_logger:cog_logger:12 - 
+        Just Door's _BOT_ COG LOGGER >>>
+        Ког: SlashCommands
+        Успешно запушен.
+        <<<
+        
+2024-08-03 20:35:41.822 | INFO     | Cogs.Events:on_ready:56 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 20:35:41.822 | INFO     | Cogs.Events:on_ready:56 - >>> Bot: Just Door's __BOT__ ---> Online.
+2024-08-03 20:35:41.823 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:41.823 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_users_count>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:44.153 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:44.153 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_voice_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:44.154 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:44.154 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <set_investitions>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:45.063 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:45.063 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <take_credit>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:45.065 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:45.065 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <checking_stream>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:45.066 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
+2024-08-03 20:35:45.066 | INFO     | bot_modules.command_logger:event_logger:58 - 
+        Just Door's _BOT_ Event LOGGER >>>
+        Бот Just Door's _BOT_.
+        Использовал <check_delete_private_text_channel>
+        с агрументами <<None>>.
+        <<<
+        
