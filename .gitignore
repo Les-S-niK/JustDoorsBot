@@ -9,3 +9,4 @@ venv
 *.gif
 **/__pycache__/
 *.pyc
+*.cpython

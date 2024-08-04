@@ -35,6 +35,9 @@ from bot_modules.words_game.hash_writer import check_old_hash, new_word_hash_wri
 from bot_modules.BotStats.ErrorsWriter import error_write
 from bot_modules.work_game.user_work_writer import write_user_work, get_user_work_info
 
+## TODO: Добавление в JSON секретных слов, которые будут прятаться в {BOT_PREFIX} командах. Которые будут выпадать в случайном порядке при исполнении slash команды.
+
+
 class SlashCommands(commands.Cog):
     """
     Ког с коммандами, выполняемыми через слэш ("/")
@@ -512,6 +515,23 @@ class SlashCommands(commands.Cog):
             """
         )
         
+        if user_to_send.name == BOT_NAME:
+            await inter.send(
+                f"""
+Оу... Вы хотите отправить анонимное сообщение `МНЕ`? :thinking_face:
+Интересная идея, между прочим!
+Давайте использовать это, как `секретный чат со мной`?
+Сюда `ВЫ` (ДА, Я ИМЕННО ПРО `ВАС`, {inter.author.mention}!) можете вводить секретые СЛОВЕЧКИ,
+которые будете получать за решение неявных загадок. :puzzle_piece:
+Они будут прятаться в ещё более секретных командах, вызываемых через **"{BOT_PREFIX}"**, :robot_face:
+а вот их уже будете получать от нашей великолепной администрации (Warnik, JustDoor).
+Или же меня. :winking_face:
+Никогда не угадаешь, когда и где я дам подсказку, будте на чеку! :face_with_monocle:
+                """,
+                ephemeral=True
+            )
+            return None
+        
         
         ## Получение баланса бота и пользователя.
         bot_balance: float = get_bot_money()
@@ -569,7 +589,10 @@ class SlashCommands(commands.Cog):
 `пользователь не принимает сообщений от неизвестных аккаунтов.`
 Либо же меня добавили в чёрный список. :cry:"""
                 )
-                .set_author(name=STREAMER_NAME, icon_url=DOOR_IMG_URL)
+                .set_author(
+                    name=BOT_NAME,
+                    icon_url=DOOR_IMG_URL
+                )
             )
 
 
