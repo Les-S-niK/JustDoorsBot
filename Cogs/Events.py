@@ -70,7 +70,7 @@ class Events(commands.Cog):
         self.show_secret_word.start()
     
     
-    @tasks.loop(seconds=5)
+    @tasks.loop(minutes=20)
     async def show_secret_word(
         self
     ) -> None:
@@ -81,7 +81,7 @@ class Events(commands.Cog):
         )
         
         rand_number: float = random.random()
-        print(rand_number)
+
         if round(rand_number, 2) <= 0.1:
             
             event_logger(
