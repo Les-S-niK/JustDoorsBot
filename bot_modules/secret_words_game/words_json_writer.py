@@ -3,7 +3,8 @@
 from json import dump, load
 
 ## Модули бота
-from main import DIRPATH
+from main import DIRPATH, BOT_PREFIX
+from bot_modules.command_logger import error_logger
 
 WORDS_PATH = f"{DIRPATH}/bot_modules/secret_words_game/secret_words.json"
 
@@ -50,8 +51,17 @@ def write_secret_word(
             if add:
                 all_secret_words.add(word)
             else:
-                all_secret_words.remove(word)
-            
+                try:
+                    all_secret_words.remove(word)
+                except KeyError as error:
+                    file.close()
+                    error_logger(
+                        error=error,
+                        command_name=f"{BOT_PREFIX}del_secret",
+                        args=f"word: {word}"
+                    )
+                    return None
+
             all_secret_words: list = list(all_secret_words)
             
             ## Создаём словарь, который записываем в JSON.
