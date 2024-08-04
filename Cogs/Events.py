@@ -27,10 +27,11 @@ from bot_modules.private_channels.voice_channels import WriteJsonFileVoice
 from bot_modules.investions.set_invest import InvestJsonActions
 from bot_modules.investions.invest_graph import CourseJsonWriter
 from bot_modules.BotStats.ErrorsWriter import error_write
-from bot_modules.ai_response.ai_response import get_response
+from bot_modules.ai_response.ai_response import get_response, get_response_secret_word
 from bot_modules.ai_response.json_writter import write_into_json, JSON_PATH
 from bot_modules.command_logger import event_logger, cog_logger, command_logger, error_logger
 from bot_modules.work_game.user_work_writer import get_user_work_info, WORK_PATH
+from bot_modules.secret_words_game.words_json_writer import get_all_secret_words
 
 ## Прочие константы.
 DIR_CREDIT_PATH = directory_path
@@ -53,6 +54,7 @@ class Events(commands.Cog):
         """
         ## Получаем объект канала для логирования.
         self.logs_channel: disnake.TextChannel = self.bot.get_channel(1268855280566009876)
+        self.guild: disnake.Guild = self.bot.guilds[0]
         
         ## Информирование о запуске бота.
         logger.info(">>> Bot: Just Door's __BOT__ ---> Online.")
@@ -65,7 +67,59 @@ class Events(commands.Cog):
         self.check_delete_private_voice_channel.start()
         self.set_investions.start()
         self.check_user_work.start()
+        self.show_secret_word.start()
     
+    
+    @tasks.loop(seconds=5)
+    async def show_secret_word(
+        self
+    ) -> None:
+        
+        event_logger(
+            bot_name=BOT_NAME,
+            event_name="show_secret_word"
+        )
+        
+        rand_number: float = random.random()
+        print(rand_number)
+        if round(rand_number, 2) <= 0.1:
+            
+            event_logger(
+                bot_name=BOT_NAME,
+                event_name="show_secret_word --TRUE"
+            )
+            
+            all_secret_words: list = get_all_secret_words()
+            ## Проверка пусты ли секретные слова.
+            if all_secret_words == []:
+                return None
+            
+            ## Получаем все каналы из необходимой директории
+            all_channels: list = self.guild.channels
+            channel: disnake.TextChannel = None
+            channels_to_send_message: list = []
+            
+            for channel in all_channels:
+                ## Проверяем принадлежность канала к директории.
+                if channel.category_id == 1209214715197136927:
+                    channels_to_send_message.append(channel.id)
+            ## Получаем объект канала.
+            channel_to_send: disnake.TextChannel = self.bot.get_channel(
+                random.choice(channels_to_send_message)
+            )
+            ## Случайным образом получаем одно из секретных слов.
+            secret_word_to_show: str = random.choice(all_secret_words)
+            
+            ## Получаем ответ на запрос от ИИ.
+            ai_response: str = get_response_secret_word(
+                secret_word_to_show=secret_word_to_show
+            )
+            ## Высылаем ответ от ИИ.
+            await channel_to_send.send(
+                ai_response,
+                delete_after=60
+                )
+
     
     @tasks.loop(minutes=5)
     async def check_user_work(
