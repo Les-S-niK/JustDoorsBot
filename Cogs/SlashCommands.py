@@ -34,6 +34,7 @@ from bot_modules.words_game.words_game_count import write_new_words_count, check
 from bot_modules.words_game.hash_writer import check_old_hash, new_word_hash_write
 from bot_modules.BotStats.ErrorsWriter import error_write
 from bot_modules.work_game.user_work_writer import write_user_work, get_user_work_info
+from bot_modules.secret_words_game.words_json_writer import get_all_secret_words, write_secret_word
 
 ## TODO: Добавление в JSON секретных слов, которые будут прятаться в {BOT_PREFIX} командах. Которые будут выпадать в случайном порядке при исполнении slash команды.
 
@@ -76,6 +77,7 @@ class SlashCommands(commands.Cog):
         user_work_info: tuple = get_user_work_info(
             user_name=inter.author.name
         )
+        
         if user_work_info is not None:
             await inter.send(
             embed=disnake.Embed(
@@ -83,19 +85,20 @@ class SlashCommands(commands.Cog):
                 description=f"""
 Уважаемый {inter.author.mention}, вы уже работаете `прямо сейчас`. :factory_worker:
 """
+                )
+                .set_author(
+                    name=BOT_NAME,
+                    icon_url=DOOR_IMG_URL
+                )
+                .set_footer(
+                    text=FOOTER_TEXT,
+                    icon_url=DOOR_IMG_URL
+                )
+                .set_thumbnail(
+                    url=ANON_DOOR
+                )
             )
-            .set_author(
-                name=BOT_NAME,
-                icon_url=DOOR_IMG_URL
-            )
-            .set_footer(
-                text=FOOTER_TEXT,
-                icon_url=DOOR_IMG_URL
-            )
-            .set_thumbnail(
-                url=ANON_DOOR
-            )
-        )
+            return None
         
         ## Получаем случайное число между 0 и 1.
         random_num: float = round(random.random(), 2)
@@ -514,28 +517,64 @@ class SlashCommands(commands.Cog):
             message: {message}
             """
         )
+        ## Получаем все секретные слова для проверки их использования.
+        secret_words: list = get_all_secret_words()
+        ## Получение баланса бота и пользователя.
+        bot_balance: float = get_bot_money()
+        user_balance: float = get_user_balance(user_name=inter.author.name)
         
-        if user_to_send.name == BOT_NAME:
+        if user_to_send.name == BOT_NAME\
+        and message not in secret_words:
             await inter.send(
                 f"""
 Оу... Вы хотите отправить анонимное сообщение `МНЕ`? :thinking_face:
 Интересная идея, между прочим!
 Давайте использовать это, как `секретный чат со мной`?
 Сюда `ВЫ` (ДА, Я ИМЕННО ПРО `ВАС`, {inter.author.mention}!) можете вводить секретые СЛОВЕЧКИ,
-которые будете получать за решение неявных загадок. :puzzle_piece:
-Они будут прятаться в ещё более секретных командах, вызываемых через **"{BOT_PREFIX}"**, :robot_face:
-а вот их уже будете получать от нашей великолепной администрации (Warnik, JustDoor).
+которые будете получать за решение неявных загадок или же за свою внимательность. :puzzle_piece:
+Они будут прятаться в **каналах, ответах и прочем** :robot_face:
+А вот это всё уже будете получать от нашей великолепной администрации (Warnik, JustDoor).
 Или же меня. :winking_face:
 Никогда не угадаешь, когда и где я дам подсказку, будте на чеку! :face_with_monocle:
                 """,
                 ephemeral=True
             )
             return None
+
+        elif message in secret_words:
+            ## Снятие баланса у пользователя и его добавление в баланс бота.
+            write_user_balance(
+                user_name=inter.author.name,
+                count=user_balance + 1000
+                )
+            write_user_balance(
+                user_name=BOT_NAME,
+                count=bot_balance - 1000
+                )
+            ## Удаляем секретное слово из списка.
+            write_secret_word(
+                word=message,
+                add=False
+            )
+            
+            await inter.send(
+                ephemeral=True,
+                embed=disnake.Embed(
+                    title="`1000` деревяшек получены! :clap:",
+                    description=f"""
+{inter.author.mention}, ничего себе! Вы ввели правильное `секретное` слово.
+Получайте свою заслуженную награду и возвращайтесь ещё!
+                    """,
+                    timestamp=datetime.datetime.now(),
+                    color=disnake.Color.dark_orange()
+                )
+                .set_author(
+                    name=STREAMER_NAME,
+                    icon_url=DOOR_IMG_URL
+                )
+            )
+            return None
         
-        
-        ## Получение баланса бота и пользователя.
-        bot_balance: float = get_bot_money()
-        user_balance: float = get_user_balance(user_name=inter.author.name)
         
         ## Проверка хватает ли пользователю баланса.
         if user_balance < 250:
@@ -763,7 +802,7 @@ class SlashCommands(commands.Cog):
             new_user_balance: float = user_balance + bet * coefficent
             
             await inter.send(
-                content="Вы выиграли!",
+                content="Вы выиграли! :slot_machine:",
                 embed=disnake.Embed(
                     title=f"`Вы выиграли!` Ваша ставка `{bet}`.   :clap:",
                     description=f"""

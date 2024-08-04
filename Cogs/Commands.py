@@ -20,6 +20,7 @@ from bot_modules.ai_response.json_writter import JSON_PATH
 from bot_modules.ai_response.ai_response import get_response
 from bot_modules.ai_response.json_writter import write_into_json
 from bot_modules.command_logger import cog_logger, command_logger
+from bot_modules.secret_words_game.words_json_writer import write_secret_word, get_all_secret_words
 
 ## TODO: Если баланс бота ушёл в минус или пользователь превысил миллион, сделать события. Сделать скрытые команды.
 
@@ -33,6 +34,156 @@ class Commands(commands.Cog):
         bot=commands.Bot
     ) -> None:
         self.bot = bot
+
+
+    @commands.command(
+        name="add_secret",
+        brief=f"{BOT_PREFIX}add_secret <secret_word>"
+    )
+    async def add_secret(
+        self,
+        ctx: commands.Context,
+        secret_word: str
+    ) -> None:
+        """Запись в JSON переданного секретного слова.
+
+        Args:
+            ctx (commands.Context)
+            secret_word (str): секретное слово.
+        """
+        
+        command_logger(
+            global_name=ctx.author.global_name,
+            name=ctx.author.name,
+            command_name="add_secret",
+            args=f"secret_word: {secret_word}"
+        )
+        
+        ## Если ID автора сообщения в ID Разработчиков
+        if ctx.author.id in CREATOR_ID:
+            try:
+                await ctx.message.delete()
+            except Exception: 
+                pass
+            
+            write_secret_word(
+                word=secret_word,
+                add=True
+            )
+            await ctx.send(
+                "**Секретное слово `добавлено`.** :thumbsup:",
+                delete_after=5
+            )
+            return None
+        
+        ## Иначе не допускаем исполнения.
+        else:
+            await ctx.send(
+                "Хм... Кажется, вы не являетесь `разработчиком` бота. А вы как думаете?",
+                delete_after=5
+            )
+            return None
+
+
+    @commands.command(
+        name="del_secret",
+        brief=f"{BOT_PREFIX}del_secret <secret_word>"
+    )
+    async def del_secret(
+        self,
+        ctx: commands.Context,
+        secret_word: str
+    ) -> None:
+        """Удаление из JSON секретное слово.
+
+        Args:
+            ctx (commands.Context)
+            secret_word (str): секретное слово.
+        """
+        
+        command_logger(
+            global_name=ctx.author.global_name,
+            name=ctx.author.name,
+            command_name="del_secret",
+            args=f"secret_word: {secret_word}"
+        )
+        
+        ## Если ID автора сообщения в ID Разработчиков
+        if ctx.author.id in CREATOR_ID:
+            try:
+                await ctx.message.delete()
+            except Exception: 
+                pass
+            
+            try:
+                write_secret_word(
+                    word=secret_word,
+                    add=False
+                )
+            except ValueError:
+                await ctx.send(
+                    "Данного слова `нет` в списке секретных слов!"
+                )
+                return None
+                
+            await ctx.send(
+                "**Секретное слово `удалено`.** :thumbsup:",
+                delete_after=5
+            )
+            return None
+        
+        ## Иначе не допускаем исполнения.
+        else:
+            await ctx.send(
+                "Хм... Кажется, вы не являетесь `разработчиком` бота. А вы как думаете?",
+                delete_after=5
+            )
+            return None
+
+
+    @commands.command(
+        name="get_secrets",
+        brief=f"{BOT_PREFIX}get_secrets"
+    )
+    async def get_secrets(
+        self,
+        ctx: commands.Context
+    ) -> None:
+        
+        command_logger(
+            global_name=ctx.author.global_name,
+            name=ctx.author.name,
+            command_name="get_secrets"
+        )
+        
+        ## Если пользователь НЕ разработчик.
+        if ctx.author.id not in CREATOR_ID:
+            await ctx.send(
+                "Хм... Кажется, вы не являетесь `разработчиком` бота. А вы как думаете?",
+                delete_after=5
+            )
+            return None
+        
+        ## Если пользователь - разрабочик, но использует команду на сервере:
+        try:
+            if ctx.author.guild_permissions is not None:
+                await ctx.send(
+                    """
+Воу, где ты это собираешься показывать секреты? :thinking:
+Не на сервере ли? :skull:
+`Просьба использовать эту команду только в личных сообщениях со мной!`""",
+                    delete_after=15
+                )
+                return None
+
+        ## Если противоречий нет и можно использовать команду:
+        except Exception:
+            all_secret_words: list = get_all_secret_words()
+            await ctx.send(
+                f"Секретные слова: {all_secret_words}",
+                delete_after=5
+            )
+            return None
 
 
     @commands.command(

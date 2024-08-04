@@ -406,14 +406,8 @@ class Events(commands.Cog):
     ) -> None:
         if isinstance(error, commands.errors.NoPrivateMessage):
             await inter.response.send_message(
-                f'Уважаемый {inter.author.mention}, вы не можете использовать эту команду в личных сообщениях! :octagonal_sign:',
+                f':octagonal_sign: Уважаемый {inter.author.mention}, вы не можете использовать эту команду в личных сообщениях!',
                 ephemeral=True
-            )
-            error_logger(
-                error=error,
-                command_name="on_slash_command_error",
-                user_name=inter.author.name,
-                line=412
             )
         
         else:
