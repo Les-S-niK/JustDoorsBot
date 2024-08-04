@@ -412,9 +412,10 @@ class Events(commands.Cog):
             error_logger(
                 error=error,
                 command_name="on_slash_command_error",
-                user_name=inter.author.name
+                user_name=inter.author.name,
+                line=412
             )
-            
+        
         else:
             await inter.response.send_message(
                 f'Произошла ошибка: {error}. :octagonal_sign:',
@@ -423,7 +424,8 @@ class Events(commands.Cog):
             error_logger(
                 error=error,
                 command_name="on_slash_command_error",
-                user_name=inter.author.name
+                user_name=inter.author.name,
+                line=418
             )
             error_write(
                 error=error

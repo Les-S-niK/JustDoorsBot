@@ -212,7 +212,7 @@ class SlashCommands(commands.Cog):
             await inter.send(
                 embed=disnake.Embed(
                     title="Я не знаю такого слова!",
-                    description=f"{inter.author.mention}, слово **\"{word}\"** мне неизвестно. Попробуйте другое.",
+                    description=f"{inter.author.mention}, слово **\"{word}\"** мне `неизвестно`. Попробуйте другое.",
                     timestamp=datetime.datetime.now(),
                     color=disnake.Color.red()
                 )
@@ -241,9 +241,9 @@ class SlashCommands(commands.Cog):
             
             await inter.send(
                 embed=disnake.Embed(
-                    title=f"Мои поздравления! Слово было угадано за {all_words_count} попыток!",
+                    title=f"Мои поздравления! Слово было угадано за {all_words_count} попыток! :thumbsup:",
                     description=f"""
-{inter.author.mention}, слово **\"{word}\"** оказалось верным. Все участники сервера
+{inter.author.mention}, слово **\"{word}\"** оказалось `верным`. Все участники сервера
 получат по {money_to_add} деревяшек""",
                     timestamp=datetime.datetime.now(),
                     color=disnake.Color.green()
@@ -292,9 +292,9 @@ class SlashCommands(commands.Cog):
                 "Кажется, загаданное слово имеет другое значение."
             )
             high_percent_variants: tuple = (
-                "Вы близки к разгадке!",
-                "Уже почти отгадали!",
-                "Слово уже близко!",
+                "Вы близки к разгадке! :pinching_hand:",
+                "Уже почти отгадали! :pinching_hand:",
+                "Слово уже близко! :pinching_hand:",
             )
             
             ## Получаем все необходимые переменные для дальнейшей работы действий.
@@ -327,7 +327,7 @@ class SlashCommands(commands.Cog):
             await inter.send(
                 embed=disnake.Embed(
                     title=random.choice(words_to_answer),
-                    description=f"{inter.author.mention}, слово **\"{word}\"** оказалось неверным.",
+                    description=f"{inter.author.mention}, слово **\"{word}\"** оказалось `неверным`. :thumbsdown:",
                     timestamp=datetime.datetime.now(),
                     color=disnake.Color.red()
                 )
@@ -340,7 +340,7 @@ class SlashCommands(commands.Cog):
                     value=f"**{words_parser.angle}°**",
                 )
                 .add_field(
-                    name="Последнее слово с наивысшим процентом и его значение: ",
+                    name="Последнее слово с `наивысшим` процентом и его значение: ",
                     value=f"**{last_high_percent_word}** | **{last_high_percent}%** | **{last_high_angle}°**" ,
                     inline=False
                 )
@@ -381,7 +381,9 @@ class SlashCommands(commands.Cog):
         """
         
         ## Ожидание исполнения команды для избежания ошибок.
-        await inter.response.defer()
+        await inter.response.defer(
+            ephemeral=True
+        )
         
         command_logger(
             global_name=inter.author.global_name,
@@ -393,7 +395,7 @@ class SlashCommands(commands.Cog):
         ## Получение случайного варианта.
         if len(variants) > 220:
             await inter.send(
-                content="В запросе слишком много символов, попрошу вас сократить его.",
+                content="В запросе слишком много символов, попрошу вас `сократить` его.",
                 ephemeral=True
             )
             return None
@@ -404,7 +406,7 @@ class SlashCommands(commands.Cog):
         ## Отправка сообщения.
         await inter.send(
             embed=disnake.Embed(
-                title=f"<<<**{choise}**>>>",
+                title=f"`{choise}`",
                 description=f'Среди вариантов "{variants}", я выбрал: "**{choise}**" :thinking:',
                 color=disnake.Color.random(),
             )
@@ -428,7 +430,9 @@ class SlashCommands(commands.Cog):
         """
         
         ## Ожидание исполнения команды для избежания ошибок.
-        await inter.response.defer()
+        await inter.response.defer(
+            ephemeral=True
+        )
         
         command_logger(
             global_name=inter.author.global_name,
@@ -438,17 +442,18 @@ class SlashCommands(commands.Cog):
         
         ## Текст для помощи пользователю.
         description: str = f"""
-Бот, созданный специально для сервера "Дверной ДС"
-НАШ БОТ "Just Door's __BOT__" - произведение искусства, разрабатываемое моим хорошим другом и настоящим компьютерным гением @Warnik
+Бот, созданный специально для сервера `"Дверной ДС"`
+НАШ БОТ `"Just Door's __BOT__"` - произведение искусства, разрабатываемое моим хорошим другом и настоящим компьютерным гением @Warnik
 (От осознания, что этот текст писал не я, стало приятно :kissing_heart: ).
 
 Это чудо - фундамент сервера с множеством возможностей, буквально наши МФЦ, банк, СМИ и т.п. 
 
-ВСЕ команды для бота можно посмотреть, прописав "/" в строку ввода, а также хочу упомянуть, что бот способен отвечать на ваши вопросы,
-если его упомянать через символ "@" или же отвечать на сообщения. Пользуйтесь, это бесплатно.
-Основные особенности прописанны в канале "про-нашего-бота", советую туда заглянуть, если ещё не видел. :pushpin:
+ВСЕ команды для бота можно посмотреть, прописав `"/"` в строку ввода, а также хочу упомянуть, что бот способен отвечать на ваши вопросы,
+если его упомянать через символ `"@"` или же отвечать на сообщения. Пользуйтесь, это бесплатно.
+Основные особенности прописанны в канале `"про-нашего-бота"`, советую туда заглянуть, если ещё не видел. :pushpin:
 
-Для модерации и участников с повышенными правами есть команда "{BOT_PREFIX}помощь".
+Для модерации и участников с повышенными правами есть команда 
+`"{BOT_PREFIX}помощь"`.
 """
         embed: disnake.Embed = disnake.Embed(
             title="/help",
@@ -476,7 +481,9 @@ class SlashCommands(commands.Cog):
         name="anonym_message",
         description="отправляет пользователю анонимное сообщение. (250)",
     )
-    @commands.has_any_role()
+    @commands.has_guild_permissions(
+        send_messages=True
+    )
     async def anonym_message(
         self,
         inter: disnake.ApplicationCommandInteraction,
@@ -489,10 +496,11 @@ class SlashCommands(commands.Cog):
             user_to_send (str): Пользователь для отправки сообщения. 
             message (str): Сообщение для отправки.
         """
-        print("START COMMAND")
         
         ## Ожидание исполнения команды для избежания ошибок.
-        await inter.response.defer()
+        await inter.response.defer(
+            ephemeral=True
+        )
         
         command_logger(
             global_name=inter.author.global_name,
@@ -511,7 +519,7 @@ class SlashCommands(commands.Cog):
         
         ## Проверка хватает ли пользователю баланса.
         if user_balance < 250:
-            await inter.send('У вас недостаточно деревяшек. Необходимо: 250')
+            await inter.send('У вас недостаточно деревяшек. Необходимо: **250**')
             return None
             
         try:
@@ -532,11 +540,14 @@ class SlashCommands(commands.Cog):
             )
             
             await inter.send(
+                ephemeral=True,
                 embed=disnake.Embed(
                     title="Сообщение отправлено! :thumbsup:"
                 )
-                .set_author(name=STREAMER_NAME, icon_url=DOOR_IMG_URL),
-                    ephemeral=True
+                .set_author(
+                    name=STREAMER_NAME,
+                    icon_url=DOOR_IMG_URL
+                )
             )
             
             ## Снятие баланса у пользователя и его добавление в баланс бота.
@@ -551,14 +562,14 @@ class SlashCommands(commands.Cog):
         
         except Exception:
             await inter.send(
+                ephemeral=True,
                 embed=disnake.Embed(
                     title="""
 Отправить сообщение не удалось, скорее всего,
-пользователь не принимает сообщений от неизвестных аккаунтов.
+`пользователь не принимает сообщений от неизвестных аккаунтов.`
 Либо же меня добавили в чёрный список. :cry:"""
                 )
-                .set_author(name=STREAMER_NAME, icon_url=DOOR_IMG_URL),
-                    ephemeral=True
+                .set_author(name=STREAMER_NAME, icon_url=DOOR_IMG_URL)
             )
 
 
@@ -595,7 +606,7 @@ class SlashCommands(commands.Cog):
         
         ## Проверка хватает ли баланса пользователю.
         if user_balance < 100:
-            await inter.send('У вас недостаточно деревяшек. Небходимо: *100*.')
+            await inter.send('У вас недостаточно `деревяшек`. Небходимо: **100**.')
             return None
         
         images_parser: FreepikImagesParser = FreepikImagesParser(request=request)
@@ -603,7 +614,7 @@ class SlashCommands(commands.Cog):
         ## Проверка результата работы парсера.
         await inter.send(
             embed=disnake.Embed(
-                title=f'''Изображение по запросу "{request}" {random.choice([
+                title=f'''Изображение по запросу `"{request}"` {random.choice([
                     ':thumbsup:', ':clap:', ':fire:', ':art:', ':heart:'
                     ])}''',
                 color=disnake.colour.Color.random()
@@ -666,7 +677,7 @@ class SlashCommands(commands.Cog):
         ## Проверка является ли ставка положительной.
         if bet <= 0:
             await inter.send(
-                "Ваша ставка должна составлять минимум **1** деревяшку и не быть отрицательной.",
+                "Ваша ставка должна составлять минимум **1** деревяшку и `не быть отрицательной`.",
                 ephemeral=True,
                 delete_after=5,
             )
@@ -678,7 +689,7 @@ class SlashCommands(commands.Cog):
         ## Если баланс пользователя больше ставки.
         if user_balance_for_check - bet < 0:
             await inter.send(
-                "Вы не можете ставить деревяшек больше, чем их есть у вас.",
+                "Вы не можете ставить `деревяшек` больше, чем их есть `у вас`.",
                 ephemeral=True,
                 delete_after=5,
             )
@@ -731,7 +742,7 @@ class SlashCommands(commands.Cog):
             await inter.send(
                 content="Вы выиграли!",
                 embed=disnake.Embed(
-                    title=f"Вы выиграли! Ваша ставка {bet}.   :clap:",
+                    title=f"`Вы выиграли!` Ваша ставка `{bet}`.   :clap:",
                     description=f"""
 Ваш счёт **{new_user_balance}** деревяшек.
 Множитель победы: {coefficent + 1} :moneybag:
@@ -783,7 +794,7 @@ class SlashCommands(commands.Cog):
             await inter.send(
                 content="Вы проиграли!",
                 embed=disnake.Embed(
-                    title=f"Вы проиграли! Ваша ставка {bet}.   :thumbsdown:",
+                    title=f"`Вы проиграли!` Ваша ставка `{bet}`.   :thumbsdown:",
                     description=f"Ваш счёт **{new_user_balance}** деревяшек. :money_with_wings:",
                     color=disnake.colour.Color.random(),
                 )
@@ -863,7 +874,7 @@ class SlashCommands(commands.Cog):
                 color=disnake.Color.random(),
                 description="""
 Нажми на кнопку, чтоб узнать что она скрывает.
-Только одна принесёт прибыль. (кнопка постоянно меняется)
+Только одна принесёт прибыль. `(кнопка постоянно меняется)`
                 """,
                 )
                 .set_author(
@@ -881,7 +892,9 @@ class SlashCommands(commands.Cog):
         name="get_user_avatar",
         description="Выводит аватар пользователя. (150)"
     )
-    @commands.has_any_role()
+    @commands.has_guild_permissions(
+        send_messages=True
+    )
     async def get_user_avatar(
         self,
         inter: disnake.ApplicationCommandInteraction,
@@ -905,7 +918,7 @@ class SlashCommands(commands.Cog):
         
         if user_balance < 150:
             await inter.send(
-                content='У вас недостаточно деревяшек. Необходимо *150*.',
+                content='У вас недостаточно деревяшек. Необходимо **150**.',
                 ephemeral=True
             )
             return None
@@ -937,7 +950,9 @@ class SlashCommands(commands.Cog):
         name="create_text_channel",
         description="Создаёт личный текстовый канал пользователя. (500)"
     )
-    @commands.has_any_role()
+    @commands.has_guild_permissions(
+        send_messages=True
+    )
     async def create_text_channel(
         self,
         inter: disnake.AppCommandInteraction,
@@ -961,7 +976,7 @@ class SlashCommands(commands.Cog):
         
         if user_balance < 500:
             await inter.send(
-                'Недостаточно деревяшек для создания канала. Необходимо: *500*.',
+                'Недостаточно `деревяшек` для создания канала. Необходимо: *500*.',
                 ephemeral=True
             )
             return None
@@ -976,7 +991,7 @@ class SlashCommands(commands.Cog):
         
         if len(channel_name) >= 100:
             await inter.send(
-                "Название канала должно быть менее 100 символов в длину.",
+                "Название канала должно быть `менее 100` символов в длину.",
                 ephemeral=True
             )
             return None
@@ -1001,7 +1016,7 @@ class SlashCommands(commands.Cog):
         await inter.send(
             embed=disnake.Embed(
                 title="Отчёт о создании",
-                description=f"Создан канал {channel.mention} в категории {category.name}. С вас списано 500 деревяшек.",
+                description=f"Создан канал {channel.mention} в категории {category.name}. С вас списано **500** деревяшек.",
                 color=disnake.Color.random(),
                 timestamp=datetime.datetime.now(),
                 )
@@ -1014,7 +1029,9 @@ class SlashCommands(commands.Cog):
         name="create_voice_channel",
         description="Создаёт личный голосовой канал пользователя. (500)"
     )
-    @commands.has_any_role()
+    @commands.has_guild_permissions(
+        send_messages=True
+    )
     async def create_voice_channel(
         self,
         inter: disnake.AppCommandInteraction,
@@ -1037,7 +1054,7 @@ class SlashCommands(commands.Cog):
         
         if user_balance < 500:
             await inter.send(
-                'Недостаточно деревяшек для создания канала. Необходимо *500* деревяшек.',
+                'Недостаточно деревяшек для создания канала. Необходимо `500` деревяшек.',
                 ephemeral=True
             )
             return None
@@ -1052,7 +1069,7 @@ class SlashCommands(commands.Cog):
         
         if len(channel_name) >= 100:
             await inter.send(
-                "Название канала должно быть менее 100 символов в длину.",
+                "Название канала должно быть `менее 100` символов в длину.",
                 ephemeral=True
             )
             return None
@@ -1077,7 +1094,7 @@ class SlashCommands(commands.Cog):
         await inter.send(
             embed=disnake.Embed(
                 title="Отчёт о создании",
-                description=f"Создан канал {channel.mention} в категории {category.name}. С вас списано 500 деревяшек.",
+                description=f"Создан канал {channel.mention} в категории {category.name}. С вас списано **500** деревяшек.",
                 color=disnake.Color.random(),
                 timestamp=datetime.datetime.now(),
                 )
@@ -1105,12 +1122,12 @@ class SlashCommands(commands.Cog):
         )
         
         description = f"""
-Twitch: {TWITCH}
-Telegram: {TG}
-Boosty: {BOOSTY}
-Donation alerts: {DONAT}
+**Twitch: {TWITCH}**
+**Telegram: {TG}**
+**Boosty: {BOOSTY}**
+**Donation alerts: {DONAT}**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Эй, т-сс, тут можно кинуть шекель на помощь нам     o((>ω< ))o"""
+Эй, т-сс, тут можно кинуть шекель на помощь нам     `o((>ω< ))o`"""
     
         await inter.send(
             embed=disnake.Embed(
@@ -1167,7 +1184,9 @@ Donation alerts: {DONAT}
         name="transfer_money",
         description="Переводит пользователю (member) (count) деревяшек из вашего личного счёта. Комиссия: 5%",
     )
-    @commands.has_any_role()
+    @commands.has_guild_permissions(
+        send_messages=True
+    )
     async def transfer_money(
         self,
         inter: disnake.AppCommandInteraction,
@@ -1192,21 +1211,21 @@ Donation alerts: {DONAT}
         
         if member.name == BOT_NAME:
             await inter.send(
-                "Безусловно, я рад вашему желанию помочь финансами мне, но такой необходимости нет :slight_smile:.",
+                "**Безусловно, я рад вашему желанию помочь финансами мне, но такой необходимости нет.** :heart_hands:",
                 ephemeral=True,
             )
             return None
         
         if inter.author.name == member.name:
             await inter.send(
-                "Вы не можете отсылать деревяшки **самому себе**.",
+                "Вы не можете отсылать деревяшки `самому себе`.",
                 ephemeral=True,
             )
             return None
         
         if count <= 0:
             await inter.send(
-                "Вы не можете перевести ненатуральное число.",
+                "Вы не можете перевести `ненатуральное` число.",
                 ephemeral=True,
             )
             return None
@@ -1280,7 +1299,7 @@ Donation alerts: {DONAT}
         
         if check_credit_file_exists(inter.author.name) is True:
             await inter.send(
-                content="У вас уже есть незакрытый кредит.",
+                content="У вас уже есть `незакрытый` кредит.",
                 ephemeral=True
                 )
             return None
@@ -1290,19 +1309,19 @@ Donation alerts: {DONAT}
 
         if money <= 0:
             await inter.send(
-                "Вы не можете брать кредит на сумму меньше 1-ой деревяшки.",
+                "Вы не можете брать кредит на сумму меньше **1-ой** деревяшки.",
                 ephemeral=True
             )
 
         elif user_balance < -50:
             await inter.send(
-                "Вы не можете брать кредит с большим отрицательным счётом.",
+                "Вы не можете брать кредит с большим `отрицательным` счётом.",
                 ephemeral=True
             )
 
         elif user_balance - money < -50:
             await inter.send(
-                "Мы не можем выдать вам кредит т.к. он уведёт вас в минус более, чем на 50 деревяшек.",
+                "Мы не можем выдать вам кредит т.к. он уведёт вас в минус более, чем на **50** деревяшек.",
                 ephemeral=True
             )
 
@@ -1328,7 +1347,7 @@ Donation alerts: {DONAT}
             await inter.send(
                 embed=disnake.Embed(
                     title=f"Уважаемый **{inter.author.global_name}**, вы взяли у нас кредит на **{money}** деревяшек.",
-                    description=f"Через час мы изымаем взятые деревяшки с поверх наложенным процентом: 10%. Вы должны вернуть нам **{money_to_return}**.",
+                    description=f"Через час мы изымаем взятые деревяшки с поверх наложенным процентом: `10%`. Вы должны вернуть нам **{money_to_return}**.",
                 ).set_footer(
                     text="Ваша любимая дверь",
                     icon_url=DOOR_IMG_URL
@@ -1361,7 +1380,7 @@ Donation alerts: {DONAT}
         
         if money <= 0:
             await inter.send(
-                'Вы не можете вкладывать ненатуральные числа.',
+                'Вы не можете вкладывать `ненатуральные` числа.',
                 ephemeral=True
             )
             return None

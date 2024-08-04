@@ -4,7 +4,6 @@ from loguru import logger
 from os import path, getenv
 from dotenv import load_dotenv
 
-## TODO: Сделать проверку использования команд в личных сообщениях для избежания ошибок. Залить на хостинг новые команды.
 
 ## Подгрузка ENV среды.
 load_dotenv()
