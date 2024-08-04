@@ -362,6 +362,7 @@ class Events(commands.Cog):
 
 
     # Обработка ошибок: ======================================
+    ## Ошибки commands
     @commands.Cog.listener("on_command_error")
     async def on_command_error(
         self,
@@ -385,18 +386,51 @@ class Events(commands.Cog):
         ## Неправильное использование команды.
         elif isinstance(error, commands.UserInputError):
             await ctx.send(f':octagonal_sign: Неправильный ввод команды "{ctx.command.name}". Правильное использование: {ctx.command.brief}')
-        
+
         ## Непредвиденная ошибка.
         else:
             error_write(error=str(error))
             error_logger(
                 error=error,
                 command_name="on_command_error",
-                line=275
+                line=391
             )
             await ctx.send(f":octagonal_sign: Произошла ошибка: {error}")
 
-
+    ## Ошибки slash_commands
+    @commands.Cog.listener("on_slash_command_error")
+    async def on_slash_command_error(
+        self,
+        inter: disnake.AppCommandInteraction,
+        error
+    ) -> None:
+        if isinstance(error, commands.errors.NoPrivateMessage):
+            await inter.response.send_message(
+                f'Уважаемый {inter.author.mention}, вы не можете использовать эту команду в личных сообщениях! :octagonal_sign:',
+                ephemeral=True
+            )
+            error_logger(
+                error=error,
+                command_name="on_slash_command_error",
+                user_name=inter.author.name
+            )
+            
+        else:
+            await inter.response.send_message(
+                f'Произошла ошибка: {error}. :octagonal_sign:',
+                ephemeral=True
+            )
+            error_logger(
+                error=error,
+                command_name="on_slash_command_error",
+                user_name=inter.author.name
+            )
+            error_write(
+                error=error
+            )
+            
+    
+    
     @commands.Cog.listener("on_error")
     async def on_error(
         self,

@@ -476,6 +476,7 @@ class SlashCommands(commands.Cog):
         name="anonym_message",
         description="отправляет пользователю анонимное сообщение. (250)",
     )
+    @commands.has_any_role()
     async def anonym_message(
         self,
         inter: disnake.ApplicationCommandInteraction,
@@ -488,6 +489,7 @@ class SlashCommands(commands.Cog):
             user_to_send (str): Пользователь для отправки сообщения. 
             message (str): Сообщение для отправки.
         """
+        print("START COMMAND")
         
         ## Ожидание исполнения команды для избежания ошибок.
         await inter.response.defer()
@@ -501,6 +503,7 @@ class SlashCommands(commands.Cog):
             message: {message}
             """
         )
+        
         
         ## Получение баланса бота и пользователя.
         bot_balance: float = get_bot_money()
@@ -878,6 +881,7 @@ class SlashCommands(commands.Cog):
         name="get_user_avatar",
         description="Выводит аватар пользователя. (150)"
     )
+    @commands.has_any_role()
     async def get_user_avatar(
         self,
         inter: disnake.ApplicationCommandInteraction,
@@ -933,6 +937,7 @@ class SlashCommands(commands.Cog):
         name="create_text_channel",
         description="Создаёт личный текстовый канал пользователя. (500)"
     )
+    @commands.has_any_role()
     async def create_text_channel(
         self,
         inter: disnake.AppCommandInteraction,
@@ -1009,6 +1014,7 @@ class SlashCommands(commands.Cog):
         name="create_voice_channel",
         description="Создаёт личный голосовой канал пользователя. (500)"
     )
+    @commands.has_any_role()
     async def create_voice_channel(
         self,
         inter: disnake.AppCommandInteraction,
@@ -1161,6 +1167,7 @@ Donation alerts: {DONAT}
         name="transfer_money",
         description="Переводит пользователю (member) (count) деревяшек из вашего личного счёта. Комиссия: 5%",
     )
+    @commands.has_any_role()
     async def transfer_money(
         self,
         inter: disnake.AppCommandInteraction,
