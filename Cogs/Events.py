@@ -70,7 +70,7 @@ class Events(commands.Cog):
         self.show_secret_word.start()
     
     
-    @tasks.loop(minutes=20)
+    @tasks.loop(minutes=30)
     async def show_secret_word(
         self
     ) -> None:
@@ -117,7 +117,7 @@ class Events(commands.Cog):
             ## Высылаем ответ от ИИ.
             await channel_to_send.send(
                 ai_response,
-                delete_after=60
+                delete_after=1800
                 )
 
     
@@ -458,14 +458,18 @@ class Events(commands.Cog):
         inter: disnake.AppCommandInteraction,
         error
     ) -> None:
+        
+        ## Ожидание исполнения команды.
+        await inter.response.defer()
+        
         if isinstance(error, commands.errors.NoPrivateMessage):
-            await inter.response.send_message(
+            await inter.send(
                 f':octagonal_sign: Уважаемый {inter.author.mention}, вы не можете использовать эту команду в личных сообщениях!',
                 ephemeral=True
             )
         
         else:
-            await inter.response.send_message(
+            await inter.send(
                 f'Произошла ошибка: {error}. :octagonal_sign:',
                 ephemeral=True
             )
