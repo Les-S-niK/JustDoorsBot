@@ -35,6 +35,7 @@ from bot_modules.words_game.hash_writer import check_old_hash, new_word_hash_wri
 from bot_modules.BotStats.ErrorsWriter import error_write
 from bot_modules.work_game.user_work_writer import write_user_work, get_user_work_info
 from bot_modules.secret_words_game.words_json_writer import get_all_secret_words, write_secret_word
+from bot_modules.casino_game.json_write import get_users_leaderboard
 
 ## TODO: Добавление в JSON секретных слов, которые будут прятаться в {BOT_PREFIX} командах. Которые будут выпадать в случайном порядке при исполнении slash команды.
 
@@ -48,6 +49,81 @@ class SlashCommands(commands.Cog):
         bot=commands.Bot
     ) -> None:
         self.bot = bot
+
+
+    @commands.slash_command(
+        name="show_leaderboard",
+        description="Показывает топ 20 пользователей с самым большим количеством деревяшек."
+    )
+    async def show_leaderboard(
+        self,
+        inter: disnake.AppCommandInteraction,
+    ) -> None:
+        """Проверка лидерборда пользователей и его отправка в канал через окно Embed.
+        
+        Args:
+            inter (disnake.AppCommandInteraction)
+        """
+        ## Ожидание исполнения команды.
+        await inter.response.defer()
+        
+        ## Получаем DICT объект с записями о балансах всех пользователей.
+        leaderboard: dict = get_users_leaderboard()
+        ## Превращаем DICT в LIST с TUPLE значениями.
+        users_list: list = list(leaderboard.items())
+        
+        ## Формируем заготовок EMBED для отправки.
+        embed: disnake.Embed = disnake.Embed(
+            title="Лидерборд пользователей: :card_box:",
+            color=disnake.Color.random(),
+            timestamp=datetime.datetime.now()
+        )
+        ## Добавляем к EMBED заготовку поля с балансами пользователей.
+        ## Получаем инфо о пользователе из USERS_LIST и место пользователя из RANGE.
+        for user_info, user_place in zip(users_list, range(1, 20)):
+            member: disnake.Member
+            ## Получаем всех пользователей на сервере.
+            for member in self.bot.get_all_members():
+                ## Сравниваем имя полученного пользователя с полученным.
+                if user_info[0] == member.name:
+                    ## Если они равны и не NONE, то по этому имени получаем GLOBAL_NAME.
+                    if member.global_name is None:
+                        user_global_name: str = member.name
+                    else:
+                        user_global_name: str = member.global_name
+            ## Делаем проверку необходимости добавления медалей.
+            match user_place:
+                case 1:
+                    medal: str = ":first_place:"
+                case 2:
+                    medal: str = ":second_place:"
+                case 3:
+                    medal: str = ":third_place:"
+                case _:
+                    medal: str = ""
+            
+            ## Внутри цикла FOR добавляем поля к EMBED с местами пользователей.
+            embed.add_field(
+                name=f"`{user_place}-е место:`",
+                value=f"**{medal} {user_global_name}: {user_info[1]}**",
+                inline=False
+            )
+        ## Добавляем текст и изображения к EMBED.
+        embed.set_author(
+            name=inter.author.global_name,
+            icon_url=inter.author.avatar.url
+        )
+        embed.set_footer(
+            text=FOOTER_TEXT,
+            icon_url=DOOR_IMG_URL
+        )
+        embed.set_thumbnail(
+            url=DOOR_IMG_URL
+        )
+        ## Отсылаем сообщение с Embed.
+        await inter.send(
+            embed=embed
+        )
 
 
     @commands.slash_command(
@@ -267,7 +343,8 @@ class SlashCommands(commands.Cog):
             write_new_game_state(is_active=False)
             write_new_last_word(
                 last_word=None,
-                percent=0
+                percent=0,
+                angle=0
             )
             write_new_words_count(new_count=1)
             ## Добавляем деревяшки всем пользователям на сервере.
@@ -1555,7 +1632,7 @@ class SlashCommands(commands.Cog):
                 )
             .add_field(
                 name='Ваш баланс:',
-                value=f'{round(user_balance + (invest_balance - commission)), 2}. (Учитывая 10% налога на прибыль)'
+                value=f'{round(user_balance + (invest_balance - commission), 2)} (Учитывая 10% налога на прибыль)'
             )
             .set_author(
                 name=inter.author.global_name,

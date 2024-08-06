@@ -467,6 +467,11 @@ class Events(commands.Cog):
                 f':octagonal_sign: Уважаемый {inter.author.mention}, вы не можете использовать эту команду в личных сообщениях!',
                 ephemeral=True
             )
+        if isinstance(error, disnake.errors.InteractionResponded):
+            await inter.send(
+                f':octagonal_sign: Уважаемый {inter.author.mention}, при исполнении команды произошла ошибка!',
+                ephemeral=True
+            )
         
         else:
             await inter.send(

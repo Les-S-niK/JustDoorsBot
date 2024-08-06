@@ -78,7 +78,7 @@ def add_balance_all_users(
     
     for user_file in all_user_files:
         with open(
-            file=f"{DIR_PATH}/{user_file}.json",
+            file=f"{DIR_PATH}/{user_file}",
             mode="r",
             encoding="utf-8",
         ) as file:
@@ -142,3 +142,46 @@ def write_user_balance(user_name: str, count: float) -> None:
     return None
 
 
+def get_users_leaderboard() -> dict:
+    """Читает все файлы JSON и возвращает dict с 20-ю пользователями с наивысшим количеством
+    деревяшек и этим же количеством.
+
+    Returns:
+        dict: Топ 20 пользователей (user_name: balance)
+    """
+
+    all_user_files: list = listdir(DIR_PATH)
+    users_balance: dict = {}
+    
+    for user_file in all_user_files:
+        with open(
+            file=f"{DIR_PATH}/{user_file}",
+            mode="r",
+            encoding="utf-8",
+        ) as file:
+            readed_data: dict = json.load(
+                fp=file
+            )
+            ## Получаем баланс и имя пользователя.
+            balance: float = readed_data.get("count")
+            user_name: str = readed_data.get("user_name")
+            if not user_name == BOT_NAME:
+                ## Добавляем ключ-значение в словарь.
+                users_balance[user_name] = balance
+
+    ## Сортируем значения.
+    sorted_users: list = sorted(
+        users_balance.items(),
+        key=lambda item: item[1],
+        reverse=True
+    )
+
+    leaderboard: dict = {}
+    ## Перебираем каждого пользователя.
+    for user in sorted_users[:20]:
+        ## Добавляем значения в leaderboard
+        leaderboard[user[0]] = user[1]
+    
+    return leaderboard
+    
+    
