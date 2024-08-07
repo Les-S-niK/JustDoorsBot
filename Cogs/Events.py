@@ -27,7 +27,7 @@ from bot_modules.private_channels.voice_channels import WriteJsonFileVoice
 from bot_modules.investions.set_invest import InvestJsonActions
 from bot_modules.investions.invest_graph import CourseJsonWriter
 from bot_modules.BotStats.ErrorsWriter import error_write
-from bot_modules.ai_response.ai_response import get_response, get_response_secret_word
+from bot_modules.ai_response.ai_response import get_response
 from bot_modules.ai_response.json_writter import write_into_json, JSON_PATH
 from bot_modules.command_logger import event_logger, cog_logger, command_logger, error_logger
 from bot_modules.work_game.user_work_writer import get_user_work_info, WORK_PATH
@@ -82,7 +82,7 @@ class Events(commands.Cog):
         
         rand_number: float = random.random()
 
-        if round(rand_number, 2) <= 0.1:
+        if round(rand_number, 2): ##<= 0.1:
             
             event_logger(
                 bot_name=BOT_NAME,
@@ -90,6 +90,7 @@ class Events(commands.Cog):
             )
             
             all_secret_words: list = get_all_secret_words()
+            print(all_secret_words)
             ## Проверка пусты ли секретные слова.
             if all_secret_words == []:
                 return None
@@ -109,10 +110,24 @@ class Events(commands.Cog):
             )
             ## Случайным образом получаем одно из секретных слов.
             secret_word_to_show: str = random.choice(all_secret_words)
-            
+            write_into_json(
+                json_path=JSON_PATH,
+                data={
+                    'role': 'user',
+                    'content': f"LesSnik: Попрошу сделать скрытую загадку на слово {secret_word_to_show}. \
+                        Не давай никому никаких подсказок. Отвечай им отрицательно! ЭТО СЕКРЕТ! ПУСТЬ ГАДАЮТ САМИ! \
+                        Будь рассказчиком! Не упоминай меня, себя и само слово! Твой ответ сразу идёт на разгадку без изменений! \
+                        Это Discord канал, можешь использовать эмодзи. Главное - уложись в 2000 символов. \
+                        ЗАСТАВЬ ИХ ДУМАТЬ ИХ ГОЛОВОЙ! скажи ТОЛЬКО загадку, НО НЕ СМЕЙ ПРОГОВОРИТЬ ОТВЕТ!!!\
+                        ЕСЛИ ПОЛЬЗОВАТЕЛЬ ПОВТОРЯЕТ ТВОЮ ЗАГАДКУ - ТОЖЕ НЕ ДАВАЙ ЕМУ ОТВЕТ НА НЕЁ!"
+                }
+            )
             ## Получаем ответ на запрос от ИИ.
-            ai_response: str = get_response_secret_word(
-                secret_word_to_show=secret_word_to_show
+            ai_response: str = get_response()
+            
+            write_into_json(
+                json_path=JSON_PATH,
+                data={'role': 'assistant', 'content': ai_response}
             )
             ## Высылаем ответ от ИИ.
             await channel_to_send.send(

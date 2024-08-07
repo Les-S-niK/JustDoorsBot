@@ -309,24 +309,32 @@ class SlashCommands(commands.Cog):
             )
             return None
 
-
         if words_parser.percent == 100:
+            winner_user: disnake.Member = inter.author
+            winner_user_balance: float = get_user_balance(
+                user_name=winner_user.name
+            )
             ## Получаем номер единственного сервера бота.
             guild: disnake.Guild = self.bot.guilds[0]
             ## Получаем число пользователей.
             all_members: int = guild.member_count
             words_count: int = check_words_count()
             ## Получаем число деревяшек, необходимых для деления на всех пользователей.
-            money_to_add: int = round((all_members * 1_000) / words_count, 2)
+            money_to_add: int = round((1_000 // words_count // all_members) * 50, 2)
+            if money_to_add > 500:
+                money_to_add: int = 500
             ## Количество слов, затраченных на отгадку.
             all_words_count: int = check_words_count()
-            
+            winner_balance_to_add: float = round(money_to_add * 2, 2)
+        
             await inter.send(
                 embed=disnake.Embed(
                     title=f"Мои поздравления! Слово было угадано за {all_words_count} попыток! :thumbsup:",
                     description=f"""
 {inter.author.mention}, слово **\"{word}\"** оказалось `верным`. Все участники сервера
-получат по {money_to_add} деревяшек""",
+получат по {money_to_add} деревяшек.
+Победитель получит **{winner_balance_to_add}** деревяшек.
+""",
                     timestamp=datetime.datetime.now(),
                     color=disnake.Color.green()
                 )
@@ -349,7 +357,19 @@ class SlashCommands(commands.Cog):
             write_new_words_count(new_count=1)
             ## Добавляем деревяшки всем пользователям на сервере.
             try:
+                ## Добавляем баланс всем пользователям.
                 add_balance_all_users(count=money_to_add)
+                ## Добавляем победившиму пользователю удвоенную прибыль.
+                write_user_balance(
+                    user_name=winner_user.name,
+                    count=winner_user_balance + winner_balance_to_add
+                )
+                bot_balance: float = get_bot_money()
+                write_user_balance(
+                    user_name=BOT_NAME,
+                    count=bot_balance - (winner_balance_to_add + money_to_add * (all_members - 1))
+                )
+                
             except Exception as error:
                 error_logger(
                     error=error,
