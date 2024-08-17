@@ -212,7 +212,7 @@ class Commands(commands.Cog):
             json_path=JSON_PATH,
             data={
                     'role': 'user',
-                    'content': f"{ctx.author.global_name}: Я стираю тебе память! \
+                    'content': f"{ctx.author.global_name}: Сделай вид, будто я стираю тебе память! \
                         Попрошу высказать своё мнение об этом. Говори на русском и покороче!"
             }
         )

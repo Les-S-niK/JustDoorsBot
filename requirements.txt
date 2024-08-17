@@ -1,0 +1,14 @@
+disnake
+loguru
+python-dotenv
+asyncio
+datetime
+lxml
+beautifulsoup4
+requests
+fake_headers
+matplotlib
+speedtest
+curl_cffi
+g4f
+nest_asyncio

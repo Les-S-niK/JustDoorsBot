@@ -1,13 +1,12 @@
 
-.env
-LOGS.log
-__pycache__
-Errors
+__pycache__/
+*.pyc
+*.env
 venv
+*.log
+*.vscode
+*.html
+Errors
 *.json
 *.png
 *.gif
-**/__pycache__/
-*.pyc
-*.cpython
-*.credit
